@@ -10,7 +10,7 @@ function Home() {
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh'}}>
             <div className="text-center">
                 <div>
-                    <img src={"/src/assets/logo.png"} style={{ width: '50%', height: '50%' }} />
+                    <img src={"/logo.png"} style={{ width: '50%', height: '50%' }} />
                 </div>
                 <h1 className="mb-4">
                     Welcome to Zhaolong's personal website.

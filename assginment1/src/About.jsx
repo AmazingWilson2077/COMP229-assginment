@@ -6,7 +6,7 @@ function About() {
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh'}}>
             <div className="text-center">
                 <div>
-                    <img src={"/src/assets/logo.png"} style={{width: '35%', height: '35%'}}/>
+                    <img src={"/logo.png"} style={{ width: '35%', height: '35%' }} />
                 </div>
                 <h1 className="mb-4">
                     About Zhaolong Cao
