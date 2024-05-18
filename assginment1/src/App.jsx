@@ -11,45 +11,30 @@ import MyNavbar from "./components/Navbar.jsx";
 import Services from "./Services.jsx";
 import Projects from "./Projects.jsx";
 
-
-
-const AppRoutes = () => (
-    <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/" element={<Home />} />
-    </Routes>
-);
+//
+// const AppRoutes = () => (
+//     <Routes>
+//         <Route path="/about" element={<About/>}/>
+//         <Route path="/contact" element={<Contact/>}/>
+//         <Route path="/" element={<Home/>}/>
+//     </Routes>
+// );
 
 function App() {
     return (
+
         <Router>
-            {/*<div>*/}
-            {/*    <nav>*/}
-            {/*        <ul>*/}
-            {/*            <li>*/}
-            {/*                <Link to="/">Home</Link>*/}
-            {/*            </li>*/}
-            {/*            <li>*/}
-            {/*                <Link to="/about">About</Link>*/}
-            {/*            </li>*/}
-            {/*            <li>*/}
-            {/*                <Link to="/contact">Contact</Link>*/}
-            {/*            </li>*/}
-            {/*        </ul>*/}
-            {/*    </nav>*/}
-
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/Services" element={<Services />} />
-                <Route path="/Projects" element={<Projects />} />
-            </Routes>
-
-            {/*</div>*/}
-            <MyNavbar />
-            {/*<AppRoutes />*/}
+            <div>
+                <MyNavbar/>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/home" element={<Home/>}/>
+                    <Route path="/about" element={<About/>}/>
+                    <Route path="/contact" element={<Contact/>}/>
+                    <Route path="/Services" element={<Services/>}/>
+                    <Route path="/Projects" element={<Projects/>}/>
+                </Routes>
+            </div>
         </Router>
     );
 }
