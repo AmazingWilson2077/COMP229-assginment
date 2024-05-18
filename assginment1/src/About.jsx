@@ -19,6 +19,7 @@ function About() {
                         - Experienced in working with Linux environments.<br/>
                         - Friendly and approachable, with a strong team spirit.<br/>
                     </p>
+                    <a href="https://www.hssgweb.com">Download PDF Resume</a>
                 </div>
             </div>
 

@@ -1,4 +1,5 @@
 // App.js
+// Zhaolong cao wilson id 301425252
 import React from 'react';
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,14 +12,7 @@ import MyNavbar from "./components/Navbar.jsx";
 import Services from "./Services.jsx";
 import Projects from "./Projects.jsx";
 
-//
-// const AppRoutes = () => (
-//     <Routes>
-//         <Route path="/about" element={<About/>}/>
-//         <Route path="/contact" element={<Contact/>}/>
-//         <Route path="/" element={<Home/>}/>
-//     </Routes>
-// );
+
 
 function App() {
     return (
